@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Viga&display=swap"
+      rel="stylesheet"
+    />
+    <title>My School Website</title>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    ></script>
+  </head>
+  <body class="p-3 m-0 border-0 bd-example m-0 border-0">
+    <!-- Navbar Section -->
+    <section class="mainbackground text-center">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand link-light m-3" href="#">LOGO</a>
+          <button
+            class="navbar-toggler bg-light-subtle"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon bg-light"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end flex-sm-column flex-md-row flex-lg-row flex-xl-row"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav">
+              <a class="nav-link active link-light" href="index.html">Home</a>
+              <a class="nav-link link-light" href="AboutUs.html">About Us</a>
+              <a class="nav-link link-light" href="#">Academics</a>
+              <a class="nav-link link-light" href="#">Student Life</a>
+              <a class="nav-link link-light" href="#">Athletics</a>
+              <a class="nav-link link-light" href="contactUs.html">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="centered-text mt-4">
+        <img src="images/Slider Text.png" alt="cis" />
+      </div>
+    </section>
+    <!-- End of Navbar Section -->
+    <section class="section-container">
+        <div class="text-center">
+            <h1 style="font-family: viga; font-size: 40px; font-weight: bold; padding-top: 50px;">Contact Us</h1>
+            <img src="images/border line.png" alt="borderline" class="img-fluid mb-5">
+        </div>
+
+    <section class="container">
+        <h2  style="font-family: viga; font-size: 30px;">Contact Information</h2>
+        <p  style="font-family: viga; font-size: 20px;">Email: <a href="mailto:info@yourcompany.com">info@yourcompany.com</a></p>
+        <p style="font-family: viga; font-size: 20px;">Phone: (234)-8196-7890</p>
+        <p style="font-family: viga; font-size: 20px;">Address: 18, Ora Street,kokojabele, Lagos Nigeria</p>
+    </section>
+
+    <section class="container">
+        <h2  style="font-family: viga; font-size: 20px;">Contact Form</h2>
+        <form action="process_contact.php" method="post">
+            <div class="form-group">
+                <label for="name"  style="font-family: viga; font-size: 20px;">Name:</label>
+                <input type="text" id="name" name="name" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email"  style="font-family: viga; font-size: 20px;">Email:</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message"  style="font-family: viga; font-size: 20px;">Message:</label>
+                <textarea id="message" name="message" class="form-control" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary"  style="font-family: viga; font-size: 20px;">Submit</button>
+        </form>
+    </section>
+    </section>
+  </body>
+</html>
